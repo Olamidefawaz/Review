@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-family: sans-serif;
+  }
+  
+  body {
+    margin: 0;
+    background: #ccc;
+  }
+  
+  article {
+    width: 212.2mm;
+    height: 297mm;
+    margin: 20px auto;
+    position: relative;
+    border:solid 1px black;
+    background-color: rgb(236, 236, 236);
+  }
+  
+  address {
+    position: absolute;
+    bottom: 8mm;
+    right: 20mm;
+  }
+  
+  h1 {
+    position: absolute;
+    top: 18mm;
+    left: 20mm;
+    width: 128px;
+    height: 128px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 44px 0;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+  }
+  .logo{
+    position: absolute;
+    top: 12mm;
+    left: 20mm;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 44px 0;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+  }
+  .bottom{
+    position: absolute;
+    bottom: 0mm;
+    width: 212mm
+  }
+  /* Your CSS below here */
